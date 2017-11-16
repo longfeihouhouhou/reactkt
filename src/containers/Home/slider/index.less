@@ -1,0 +1,22 @@
+.carousel-wrapper{
+  position: relative;
+  .dots{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+      margin-left: 5px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: lightgray;
+      display: inline-block;
+    }
+    &.active{
+      background-color: darkgrey;
+    }
+  }
+}
